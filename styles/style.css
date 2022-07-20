@@ -8,6 +8,10 @@ body {
 
   background-color: white;
 }
+a {
+  text-decoration: none !important;
+  color: white;
+}
 
 main {
   display: flex;
@@ -111,13 +115,19 @@ main {
   background-color: white;
 }
 .grid-item {
-  padding: 0px 13px;
+  /* padding: 13px; */
   font-weight: bolder;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin: 0 12px 18px;
 }
 
 .grid-item img {
   width: 312px;
   height: 175px;
+}
+.grid-item p {
+  margin-left: 10px;
 }
 .grid-item-btn {
   background: white;
@@ -126,10 +136,44 @@ main {
   border-radius: 5px;
   border: 1px solid black;
   padding: 5px 20px;
+  margin-left: 10px;
 }
 .grid-buttom {
+  margin-left: 10px;
+  margin-bottom: 10px;
   display: block;
 }
+
+.grid-buttom-2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.grid-buttom-2 h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-buttom-2 p {
+  font-size: x-small;
+  font-weight: 100;
+}
+
+.flag-content {
+  padding: 20px;
+}
+
+.grid-flag {
+  width: 252px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-flag img {
+  width: 93.04px;
+  height: 56.18px;
+}
+
 .grid-buttom-left {
   float: left;
   margin-right: 30px;
@@ -165,7 +209,7 @@ li {
 .footer-goal {
   display: flex;
 }
-hr.hrline {
-  border-top: 1px solid gray;
+.hrline {
+  border-color: 1px solid gray;
   width: 80%;
 }
