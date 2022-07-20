@@ -18,6 +18,9 @@ main {
   flex-direction: column;
   align-items: center;
 }
+.container {
+  width: 1321px;
+}
 
 .header-section {
   background-color: black;
@@ -65,7 +68,7 @@ main {
   height: 90%;
 }
 .content-section {
-  width: 1321px;
+  /* width: 1321px; */
   /* display: flex; */
   margin-top: 50px;
 }
@@ -212,4 +215,58 @@ li {
 .hrline {
   border-color: 1px solid gray;
   width: 80%;
+}
+/* -----media quries-----*/
+/*----mobile devices---*/
+
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .content-section {
+    grid-template-columns: repeat(1, ifr);
+    display: grid;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: min-content;
+    background-color: white;
+  }
+  li {
+    margin: 0 10px;
+    display: block;
+  }
+
+  .content-section-right {
+    display: grid;
+    margin: auto;
+  }
+
+  .content-section-left {
+    margin: auto;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    float: left;
+  }
+
+  .header-content-left {
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .head-class {
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .header-section {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+  }
 }
