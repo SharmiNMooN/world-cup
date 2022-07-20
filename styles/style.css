@@ -121,8 +121,14 @@ main {
   padding: 5px 20px;
 }
 .grid-buttom {
+  display: block;
 }
-
+.grid-buttom-left {
+  float: left;
+  margin-right: 30px;
+}
+.grid-buttom-right {
+}
 .footer-content {
   background-color: black;
   color: white;
