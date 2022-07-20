@@ -170,8 +170,13 @@ p {
   width: 252px;
   margin: 0 auto;
   text-align: center;
+  display: flex;
 }
 
+.grid-flag h1 {
+  margin: 15px;
+  font-weight: 400;
+}
 .grid-flag img {
   width: 93.04px;
   height: 56.18px;
