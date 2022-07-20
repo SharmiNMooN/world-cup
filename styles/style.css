@@ -85,6 +85,10 @@ main {
   border-radius: 10px;
   float: left;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+}
 .btn-group {
   width: 252px;
   height: 252px;
