@@ -247,6 +247,10 @@ li {
   }
 }
 
+.social-icon {
+  display: none;
+}
+
 /* -----media quries-----*/
 /*----mobile devices---*/
 
@@ -313,5 +317,8 @@ li {
     border-radius: 30px;
     color: white;
     display: grid;
+  }
+  .social-icon {
+    display: block;
   }
 }
